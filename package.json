@@ -3,13 +3,15 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "cy:open": "cypress open"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
         "autoprefixer": "^10.4.21",
         "axios": "^1.6.4",
         "bootstrap": "^5.2.3",
+        "cypress": "^15.5.0",
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.5.3",
         "sass": "^1.56.1",
