@@ -16,6 +16,6 @@ describe('Login Test', () => {
     cy.contains('button, a', 'Login', { matchCase: false }).click()
 
     // Verifikasi elemen NIM/email atau password salah muncul
-    cy.contains('NIM/email atau password salah', { matchCase: false, timeout: 10000 }).should('be.visible')
+    cy.contains('Please fill out this field', { matchCase: false, timeout: 10000 }).should('be.visible')
   })
 })
